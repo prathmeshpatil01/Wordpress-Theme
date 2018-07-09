@@ -32,9 +32,13 @@ Wordpress Demo Theme
 
 ![Home Page](assets/img/home.png)
 
-### Dynamic Menu and Custom Post Slider
+### Dynamic Header Section
 
-![Dynamic Menu and Custom Post Slider](assets/img/header.png)
+![Dynamic Header Section](assets/img/header.png)
+
+### Custom Slider
+
+![Custom Slider](assets/img/slider.png)
 
 ### Child Pages Of Home Pages
 
@@ -44,9 +48,9 @@ Wordpress Demo Theme
 
 ![Google Map](assets/img/map.png)
 
-### Customly Created Social Media Widget
+### Customly Widget
 
-![Social Media Widget](assets/img/widget.png)
+![Widget](assets/img/widget.png)
 
 ### Theme Option Panel
 
