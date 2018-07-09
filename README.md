@@ -48,7 +48,7 @@ Wordpress Demo Theme
 
 ![Google Map](assets/img/map.png)
 
-### Customly Widget
+### Custom socila Widget
 
 ![Widget](assets/img/widget.png)
 
