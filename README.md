@@ -50,7 +50,7 @@ Wordpress Demo Theme
 
 ### Custom socila Widget
 
-![Widget](assets/img/widget.png)
+![Widget](assets/img/footer.png)
 
 ### Theme Option Panel
 
