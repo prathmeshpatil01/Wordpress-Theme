@@ -40,7 +40,7 @@ Wordpress Demo Theme
 
 ![Custom Slider](assets/img/slider.png)
 
-### 4. Child Pages Of Home Pages
+### 4. Child Pages Of Home Page
 
 ![Child Pages](assets/img/child.png)
 
