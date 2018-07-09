@@ -28,30 +28,30 @@ Wordpress Demo Theme
 
 ## Screenshots ##
 
-### Home Page
+### 1. Home Page
 
 ![Home Page](assets/img/home.png)
 
-### Dynamic Header Section
+### 2. Dynamic Header Section
 
 ![Dynamic Header Section](assets/img/header.png)
 
-### Custom Slider
+### 3. Custom Slider
 
 ![Custom Slider](assets/img/slider.png)
 
-### Child Pages Of Home Pages
+### 4. Child Pages Of Home Pages
 
 ![Child Pages](assets/img/child.png)
 
-### Google Map Uploaded via Theme Options
+### 5. Google Map Uploaded via Theme Options
 
 ![Google Map](assets/img/map.png)
 
-### Custom socila Widget
+### 6. Custom socila Widget
 
 ![Widget](assets/img/footer.png)
 
-### Theme Option Panel
+### 7. Theme Option Panel
 
 ![Theme Option Panel](assets/img/themeoptions.png)
