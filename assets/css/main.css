@@ -1,0 +1,1082 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Fonts
+2. Body
+3. Default Css
+4. Social Icon
+5. Header Style
+6. Main Slider
+7. Heading Style
+8. Footer Style
+
+--------------------------------------------------------------*/
+
+/*
+==========================
+1. Fonts
+==========================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Satisfy');
+/*
+==========================
+2. Body
+==========================
+*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #777;
+    line-height: 1.8em;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/*
+==========================
+3. Default Css
+==========================
+*/
+
+.carousel-inner img{
+     
+    filter:grayscale(50%);
+
+
+}
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.child-img img 
+{
+    max-width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+}
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+}
+p,
+em {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    font-weight: normal;
+    margin: 0px;
+    background: none;
+    line-height: 1.6em;
+    font-family: 'Lato', sans-serif;
+    color: #262626;
+    text-transform: initial;
+}
+
+
+.text-center 
+{
+    margin-top: 80px;
+}
+
+.special-font {
+    font-size: 24px;
+}
+section {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+.positionR {
+    position: relative;
+}
+.positionS {
+    position: static;
+}
+.positionA {
+    position: absolute;
+}
+.black-bg {
+    background: #000;
+}
+.white-bg {
+    background: White;
+}
+.grey-bg {
+    background: #f2f2f2;
+}
+.border-box {
+    border: 1px solid lightgray;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    font-size: 16px;
+    
+
+}
+
+
+.clear {
+    clear: both;
+}
+.theme-border-bottom {
+    border-bottom: 1px solid;
+}
+.parallax-style {
+    background-attachment: fixed;
+}
+.colorW {
+    color: #fff;
+}
+.colorB {
+    color: #000;
+}
+.colorG {
+    #777
+}
+.title {
+    text-transform: uppercase;
+}
+.fontB {
+    font-weight: 600;
+}
+.special-para {
+    font-size: 14px;
+}
+.slider-text h1,
+.foot-sec h3,
+.theme-heading h1,
+.page-header-heading h3 {
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+}
+/* 3.2 Form Inputs */
+
+/* 3.3 Button Style */
+
+.itg-button {
+    border: 1px solid #262626;
+    color: #262626;
+    display: inline-block;
+    line-height: 1em;
+    padding: 12px 30px;
+    font-size: 15px;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+    background-color: transparent;
+}
+.itg-button.light:hover,
+.itg-button:hover,
+.itg-button.dark {
+    color: #fff;
+}
+.itg-button.light {
+    border-color: #fff;
+    color: #fff;
+}
+/* 3.4 Padding Style */
+
+.pad0 {
+    padding: 0px;
+}
+.pad5 {
+    padding: 5px;
+}
+.pad10 {
+    padding: 10px;
+}
+.pad15 {
+    padding: 15px;
+}
+.pad20 {
+    padding: 20px;
+}
+.pad30 {
+    padding: 30px;
+}
+.pad40 {
+    padding: 40px;
+}
+.pad50 {
+    padding: 50px;
+}
+.pad60 {
+    padding: 60px;
+}
+.pad70 {
+    padding: 70px;
+}
+.pad80 {
+    padding: 80px;
+}
+.pad90 {
+    padding: 90px;
+}
+.pad100 {
+    padding: 100px;
+}
+.padTB0 {
+    padding: 0px 0;
+}
+.padTB5 {
+    padding: 5px 0;
+}
+.padTB10 {
+    padding: 10px 0;
+}
+.padTB15 {
+    padding: 15px 0;
+}
+.padTB20 {
+    padding: 20px 0;
+}
+.padTB30 {
+    padding: 17px 0;
+}
+.padTB40 {
+    padding: 40px 0;
+}
+.padTB50 {
+    padding: 50px 0;
+}
+.padTB60 {
+    padding: 60px 0;
+}
+.padTB70 {
+    padding: 70px 0;
+}
+.padTB80 {
+    padding: 80px 0;
+}
+.padTB90 {
+    padding: 90px 0;
+}
+.padTB100 {
+    padding: 100px 0;
+}
+.padT0 {
+    padding-top: 0px;
+}
+.padT5 {
+    padding-top: 5px;
+}
+.padT10 {
+    padding-top: 10px;
+}
+.padT15 {
+    padding-top: 15px;
+}
+.padT20 {
+    padding-top: 20px;
+}
+.padT30 {
+    padding-top: 30px;
+}
+.padT40 {
+    padding-top: 40px;
+}
+.padT50 {
+    padding-top: 50px;
+}
+.padT60 {
+    padding-top: 60px;
+}
+.padT70 {
+    padding-top: 70px;
+}
+.padT80 {
+    padding-top: 80px;
+}
+.padT90 {
+    padding-top: 90px;
+}
+.padT100 {
+    padding-top: 100px;
+}
+.padB0 {
+    padding-bottom: 0px;
+}
+.padB5 {
+    padding-bottom: 5px;
+}
+.padB10 {
+    padding-bottom: 10px;
+}
+.padB20 {
+    padding-bottom: 20px;
+}
+.padB30 {
+    padding-bottom: 30px;
+}
+.padB40 {
+    padding-bottom: 40px;
+}
+.padB50 {
+    padding-bottom: 50px;
+}
+.padB60 {
+    padding-bottom: 60px;
+}
+.padB70 {
+    padding-bottom: 70px;
+}
+.padB80 {
+    padding-bottom: 80px;
+}
+.padB90 {
+    padding-bottom: 90px;
+}
+.padB100 {
+    padding-bottom: 100px;
+}
+.padL0 {
+    padding-left: 0px;
+}
+.padL5 {
+    padding-left: 5px;
+}
+.padL10 {
+    padding-left: 10px;
+}
+.padL20 {
+    padding-left: 20px;
+}
+.padL30 {
+    padding-left: 30px;
+}
+.padL40 {
+    padding-left: 40px;
+}
+.padL50 {
+    padding-left: 50px;
+}
+.padL60 {
+    padding-left: 60px;
+}
+.padL70 {
+    padding-left: 70px;
+}
+.padL80 {
+    padding-left: 80px;
+}
+.padL90 {
+    padding-left: 90px;
+}
+.padL100 {
+    padding-left: 100px;
+}
+.padLR0 {
+    padding-left: 0px;
+}
+.padLR5 {
+    padding-left: 5px;
+}
+.padLR10 {
+    padding-left: 10px;
+}
+.padLR20 {
+    padding-left: 20px;
+}
+.padLR30 {
+    padding-left: 30px;
+}
+.padLR40 {
+    padding-left: 40px;
+}
+.padLR50 {
+    padding-left: 50px;
+}
+.padLR60 {
+    padding-left: 60px;
+}
+.padLR70 {
+    padding-left: 70px;
+}
+.padLR80 {
+    padding-left: 80px;
+}
+.padLR90 {
+    padding-left: 90px;
+}
+.padLR100 {
+    padding-left: 100px;
+}
+.padR0 {
+    padding-right: 0px;
+}
+.padR5 {
+    padding-right: 5px;
+}
+.padR10 {
+    padding-right: 10px;
+}
+.padR20 {
+    padding-right: 20px;
+}
+.padR30 {
+    padding-right: 30px;
+}
+.padR40 {
+    padding-right: 40px;
+}
+.padR50 {
+    padding-right: 50px;
+}
+.padR60 {
+    padding-right: 60px;
+}
+.padR70 {
+    padding-right: 70px;
+}
+.padR80 {
+    padding-right: 80px;
+}
+.padR90 {
+    padding-right: 90px;
+}
+.padR100 {
+    padding-right: 100px;
+}
+/* 3.5 Margin Style */
+
+.mar0 {
+    margin: -1px;
+}
+.mar5 {
+    margin: 5px;
+}
+.mar10 {
+    margin: 10px;
+}
+.mar15 {
+    margin: 15px;
+}
+.mar20 {
+    margin: 20px;
+}
+.mar30 {
+    margin: 30px;
+}
+.mar40 {
+    margin: 40px;
+}
+.mar50 {
+    margin: 50px;
+}
+.mar60 {
+    margin: 60px;
+}
+.mar70 {
+    margin: 70px;
+}
+.mar80 {
+    margin: 80px;
+}
+.mar90 {
+    margin: 90px;
+}
+.mar100 {
+    margin: 100px;
+}
+.marT0 {
+    margin-top: 0px;
+}
+.marT5 {
+    margin-top: 5px;
+}
+.marT10 {
+    margin-top: 10px;
+}
+.marT15 {
+    margin-top: 15px;
+}
+.marT20 {
+    margin-top: 20px;
+}
+.marT30 {
+    margin-top: 30px;
+}
+.marT40 {
+    margin-top: 40px;
+}
+.marT50 {
+    margin-top: 50px;
+}
+.marT60 {
+    margin-top: 60px;
+}
+.marT70 {
+    margin-top: 70px;
+}
+.marT80 {
+    margin-top: 80px;
+}
+.marT90 {
+    margin-top: 90px;
+}
+.marT100 {
+    margin-top: 100px;
+}
+.marB0 {
+    margin-bottom: 0px;
+}
+.marB5 {
+    margin-bottom: 5px;
+}
+.marB10 {
+    margin-bottom: 10px;
+}
+.marB20 {
+    margin-bottom: 20px;
+}
+.marB30 {
+    margin-bottom: 30px;
+}
+.marB40 {
+    margin-bottom: 40px;
+}
+.marB50 {
+    margin-bottom: 50px;
+}
+.marB60 {
+    margin-bottom: 60px;
+}
+.marB70 {
+    margin-bottom: 70px;
+}
+.marB80 {
+    margin-bottom: 80px;
+}
+.marB90 {
+    margin-bottom: 90px;
+}
+.marB100 {
+    margin-bottom: 100px;
+}
+.marL0 {
+    margin-left: 0px;
+}
+.marL5 {
+    margin-left: 5px;
+}
+.marL10 {
+    margin-left: 10px;
+}
+.marL20 {
+    margin-left: 20px;
+}
+.marL30 {
+    margin-left: 30px;
+}
+.marL40 {
+    margin-left: 40px;
+}
+.marL50 {
+    margin-left: 50px;
+}
+.marL60 {
+    margin-left: 60px;
+}
+.marL70 {
+    margin-left: 70px;
+}
+.marL80 {
+    margin-left: 80px;
+}
+.marL90 {
+    margin-left: 90px;
+}
+.marL100 {
+    margin-left: 100px;
+}
+.marR0 {
+    margin-right: 0px;
+}
+.marR5 {
+    margin-right: 5px;
+}
+.marR10 {
+    margin-right: 10px;
+}
+.marR20 {
+    margin-right: 20px;
+}
+.marR30 {
+    margin-right: 30px;
+}
+.marR40 {
+    margin-right: 40px;
+}
+.marR50 {
+    margin-right: 50px;
+}
+.marR60 {
+    margin-right: 60px;
+}
+.marR70 {
+    margin-right: 70px;
+}
+.marR80 {
+    margin-right: 80px;
+}
+.marR90 {
+    margin-right: 90px;
+}
+.marR100 {
+    margin-right: 100px;
+}
+.marLR0 {
+    margin-right: 0px;
+}
+.marLR5 {
+    margin-right: 5px;
+}
+.marLR10 {
+    margin: 0 10px;
+}
+.marLR20 {
+    margin: 0 20px;
+}
+.marLR30 {
+    margin: 0 30px;
+}
+.marLR40 {
+    margin: 0 40px;
+}
+.marLR50 {
+    margin: 0 50px;
+}
+.marLR60 {
+    margin: 0 60px;
+}
+.marLR70 {
+    margin: 0 70px;
+}
+.marLR80 {
+    margin: 0 80px;
+}
+.marLR90 {
+    margin: 0 90px;
+}
+.marLR100 {
+    margin: 0 100px;
+}
+/*
+==========================
+4. Social Icon
+==========================
+*/
+
+.social-icon {
+    width: 100%;
+    float: left;
+}
+.social-icon li {
+    float: left;
+    
+}
+.theme-circle {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: #404040;
+    text-align: center;
+    line-height: 2.1em;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 16px;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+}
+.theme-circle:hover,
+.theme-circle:focus,
+.theme-circle:visited {
+    color: #fff;
+}
+/*
+
+==========================
+5. Header Style
+==========================
+*/
+/* 5.1 Top Header */
+
+.contact-info {
+    width: auto;
+    float: right;
+    margin-left: 30px;
+}
+.contact-info p {
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.2em;
+}
+.contact-info .theme-circle {
+    margin-top: 4px;
+}
+/* 5.2 Navigation Bar */
+
+.navbar-nav {
+    float: left;
+}
+.navbar-nav>li>.dropdown-menu {
+    background-color: #0d0d0d;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #fff;
+}
+.navbar-nav>li>a {
+    position: relative;
+}
+.navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a {
+    padding: 29px 15px;
+    font-size: 14px;
+}
+.dropdown-menu>li>a {
+    padding: 5px 20px;
+}
+.navbar-nav > li > a i,
+.navbar-nav ul.sm-nowrap > li > a i {
+    margin-left: 5px;
+    float: right;
+    line-height: 1.4em;
+}
+.navbar-collapse.in {
+    overflow-y: initial;
+}
+.navbar-nav>li>a,
+.navbar-nav ul.sm-nowrap > li > a {
+    text-transform: capitalize;
+}
+.navigation-icon ul li {
+    float: left;
+}
+.navigation-icon {
+    position: relative;
+}
+.navigation-icon .search_bar {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    z-index: 2;
+    right: 15px;
+}
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    border-color: #0d0d0d;
+}
+.top-bar-icon li a:hover > span {
+    opacity: 1;
+    color: #fff;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+    visibility: visible;
+}
+.top-bar-icon li a {
+    position: relative;
+}
+.top-bar-icon li a span:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 16px solid;
+    border-left: 20px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 50%;
+    margin-right: -20px;
+}
+.top-bar-icon li a span {
+    position: absolute;
+    bottom: -65px;
+    z-index: 5;
+    right: 0;
+    font-size: 15px;
+    padding: 5px 25px;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+    border-radius: 0px;
+    color: #fff;
+    visibility: hidden;
+}
+.navbar-default .navbar-nav>li>a {
+    text-transform: capitalize;
+    font-size: 16px;
+}
+ 
+/*
+
+
+===================================
+6. Main Slider
+===================================
+*/
+
+.slider-text {
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+.slider-text h1 {
+    font-weight: 500;
+    font-size: 50px;
+    color: #fff;
+}
+.slider-image:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.slider-text h2 {
+    color: #fff;
+    font-weight: 300;
+    padding-top: 20%;
+}
+.slider-text p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+/*
+===================================
+7. Heading Style
+===================================
+*/
+
+.theme-heading h1 {
+    position: relative;
+    color: #262626;
+    display: inline-block;
+}
+.theme-heading.background p {
+    color: #fff;
+}
+.theme-heading h1:after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    top: 50%;
+    left: 100%;
+    margin-left: 10px;
+}
+.theme-heading h1:before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    top: 50%;
+    right: 100%;
+    margin-right: 10px;
+}
+.theme-heading p {
+    max-width: 450px;
+    font-size: 14px;
+    margin: auto;
+}
+.theme-heading.background h1 {
+    color: #fff;
+}
+/*
+
+*/
+
+.collection-box {
+    width: 100%;
+    float: left;
+}
+.collection-box img {
+    width: 100%;
+}
+/*
+
+*/
+
+.menu-background {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+/*
+
+*/
+
+.contact-detail {
+    float: left;
+    width: 100%;
+}
+.contact-detail i {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.location-map {
+    float: left;
+    width: 100%;
+}
+.location-map iframe {
+    width: 100%;
+    margin: 0;
+    border: 0px !important;
+    padding: 0;
+    height: 500px;
+}
+
+/*
+===================================
+8. Footer Style
+===================================
+*/
+
+
+
+.foot-sec {
+    width: 100%;
+    float: left;
+    color: #cccccc;
+    position: relative;
+    z-index: 2;
+}
+.footer-box {
+    float: left;
+    width: 100%;
+}
+.foot-img-box img {
+    float: left;
+    width: 100%;
+}
+.main_footer {
+    background-color: #1a1a1a;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.foot-sec ul li {
+    margin-bottom: 10px;
+}
+.foot-sec ul.text li span {
+    width: 88%;
+    float: right;
+}
+.foot-img-box ul li {
+    width: 21%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.foot-sec p {
+    margin-bottom: 10px;
+    clear: both;
+}
+.foot-sec h3 {
+    position: relative;
+}
+.foot-sec h3:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: red;
+    width: 70px;
+    top: 50%;
+    margin-top: -1px;
+    margin-left: 15px;
+}
+.foot-sec h3.line-hide:after {
+    display: none;
+}
+.bottom-footer p {
+    margin: 0;
+}
+.bottom-footer {
+    position: relative;
+}
+.footer-background .top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.footer-background .bottom-right {
+    position: absolute;
+    bottom: 105px;
+    right: 0;
+}
+
+.footer-menu 
+{
+    text-align: center;
+}
+.footer-menu ul li
+{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.footer-menu ul li a
+{
+    color: #fff;
+}
+.footer-text-center 
+{
+    text-align: center;
+}

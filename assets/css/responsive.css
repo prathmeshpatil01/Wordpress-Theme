@@ -1,0 +1,223 @@
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+    .slider-text h2 {
+        padding-top: 15%;
+    }
+   
+}
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .slider-text h2 {
+        padding-top: 12%;
+    }
+    
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+    .slider-text h2 {
+        padding-top: 9%;
+    }
+    .slider-text h1 {
+        font-size: 45px;
+    }
+    .foot-sec h3:after {
+        width: 50px;
+    }
+    
+}
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .slider-text h2 {
+        padding-top: 8%;
+    }
+    .slider-text h1 {
+        font-size: 45px;
+    }
+    .foot-sec h3:after {
+        width: 50px;
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .slider-text h1 {
+        font-size: 32px;
+    }
+    .slider-text h2 {
+        font-size: 22px;
+        padding-top: 5%;
+    }
+    .slider-text p {
+        margin-bottom: 15px;
+    }
+    
+    
+  
+    .navbar-nav>li>a,
+    .navbar-default .navbar-nav>li>a {
+        padding: 29px 14px;
+        font-size: 14px;
+    }
+	.dropdown-menu>li>a{
+		font-size: 14px;
+	}
+   
+}
+@media screen and (min-width: 768px) {
+    .dropdown-menu>li>a {
+        padding: 13px 20px;
+    }
+    .dropdown-menu li .dropdown-menu {
+        left: 0% !important;
+        box-shadow: none;
+        border-top: 2px solid;
+    }
+    .navbar-nav>li>a {
+        border-bottom: 2px solid #000;
+    }
+    .navigation-icon {
+        float: right;
+        padding: 22.5px 0;
+        padding-right: 15px;
+    }
+    .navbar-nav>li>.dropdown-menu {
+        border-top: 2px solid;
+        margin-top: -3px !important;
+    }
+    .dropdown-menu li.left-side .dropdown-menu {
+        margin-left: -200px !important;
+    }
+    .dropdown-menu>li>a:hover {
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+	.service-single .itg-button {
+		margin-bottom: 5px;
+		width: 48%;
+	}
+    .filter-check-box ul li {
+        display: block;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .navbar-brand {
+        float: none;
+    }
+    .navbar-nav .open .dropdown-menu>li>a,
+    .dropdown-menu>li>a {
+        padding: 10px 15px;
+    }
+    .navbar-nav>li>a,
+    .navbar-default .navbar-nav>li>a {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .navbar-nav {
+        padding: 20px 0;
+    }
+    .navigation-icon {
+        float: left;
+        padding: 13.5px 0;
+    }
+    .navbar-toggle {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .navigation-icon .search_bar {
+        right: 0;
+    }
+    .slider-text p {
+        display: none;
+    }
+    .owl-dots {
+        bottom: 0;
+    }
+    .itg-button {
+        padding: 8px 25px;
+        font-size: 14px;
+    }
+    .theme-heading h1:before {
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 2px;
+        background-color: red;
+        top: 50%;
+        right: calc(100% - 40px);
+        margin-right: 0px;
+        
+    }
+    .theme-heading h1 {
+        font-size: 30px;
+		padding: 0 52px;
+        line-height: 32px;
+
+        
+    }
+    .theme-heading h1:after {
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 2px;
+        background-color: red;
+        top: 50%;
+        left: calc(100% - 40px);
+        margin-left: 0px;
+    }
+   
+   
+    .top-bar-icon li a span {
+        left: 0;
+        right: initial;
+    }
+    .top-bar-icon li a span:before {
+        border-bottom: 16px solid;
+        border-right: 20px solid transparent;
+        border-left: 0px solid transparent;
+        left: 50%;
+        margin-left: -20px;
+    }
+   
+    
+}
+@media screen and (min-width: 641px) and (max-width: 767px) {
+    .slider-text h2 {
+        padding-top: 10%;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+    .slider-text h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .slider-text h2 {
+        padding-top: 10%;
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .slider-text h2 {
+        font-size: 16px;
+        margin-bottom: 5px;
+        padding-top: 6%;
+    }
+    .slider-text h1 {
+        font-size: 24px;
+        line-height: 1.4em;
+        margin-bottom: 5px;
+    }
+    
+	.bottom-footer p{
+		font-size:14px;
+	}
+    .text-center 
+{
+    margin-top: 0px;
+}
+.padTB30 {
+    padding: 0px 0;
+}
+.img-center img 
+{
+    margin-left: 13%;
+}
+}

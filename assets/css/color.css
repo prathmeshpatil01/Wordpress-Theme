@@ -1,0 +1,30 @@
+a:hover, a:focus,
+.theme-color {
+	color:#cf0008;
+}
+.theme-bg,
+.itg-button:hover,
+.theme-circle:hover,
+.theme-circle:focus,
+.top-bar-icon li a span,
+.itg-button.dark,
+.thecube .cube:before,
+.demo-button .itg-button,
+.theme-heading h1:before,
+.theme-heading h1:after
+{
+    background-color: #cf0008;
+}
+
+.navbar-nav>li>a:hover,
+.itg-button:hover,
+.service-box:hover .itg-button,
+.itg-button.dark,
+.demo-button .itg-button,
+.navbar-nav>li>.dropdown-menu,
+.dropdown-menu li .dropdown-menu{
+	border-color:#cf0008;
+}
+.top-bar-icon li a span:before{
+	border-bottom-color:#cf0008;
+}

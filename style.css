@@ -1,0 +1,31 @@
+/*!
+Theme Name: demo-theme
+Theme URI: http://www.mywordpresstheme.com
+Author: Prathmesh Patil
+Author URI: http://www.mywordpresstheme.com
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: demo-theme
+Tags: demo-theme
+
+*/
+
+/*---bootstap.CSS ---*/
+@import url("lib/css/bootstrap.min.css");
+/*---mega menu .CSS ---*/
+
+/*---fontawesome.CSS  font ---*/
+@import url("lib/font-awesome/css/font-awesome.min.css");
+
+
+
+/*---MAIN.CSS inluad style---*/
+@import url("assets/css/main.css");
+
+/*---responsive.CSS inluad style---*/
+@import url("assets/css/responsive.css");
+
+/*---color.CSS inluad color---*/
+@import url("assets/css/color.css");
